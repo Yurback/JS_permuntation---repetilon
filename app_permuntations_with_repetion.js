@@ -20,8 +20,8 @@ function permuntation_rep(range,length) {
  return arrayOfcombo;
 }
 
-const cost_range = [1,2,3,4,5,6,7,8,9,0];
-const count_cost = 3;
+const cost_range = [1,2,3,4,5,6];
+const count_cost = 2;
 const final_result = permuntation_rep(cost_range,count_cost);
 
 console.log(final_result);
